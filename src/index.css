@@ -483,13 +483,13 @@ body{
   padding-left: 3px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
  .header h3 {
     font-size: 18px;
     width: 150px;
   }
   .search {
-    width: 100px;
+    width: 450px;
     padding-left: 20px;
     margin-left: 1px;
     margin-top: 5px;
@@ -498,3 +498,19 @@ body{
       width: 200px;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .header h3 {
+     font-size: 18px;
+     width: 150px;
+   }
+   .search {
+     width: 100px;
+     padding-left: 20px;
+     margin-left: 1px;
+     margin-top: 5px;
+   }
+   .take-notes1 {
+       width: 200px;
+   }
+ }

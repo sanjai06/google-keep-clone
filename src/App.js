@@ -1,12 +1,12 @@
 import React from 'react';
-import Home from './Home';
+import Home from './components/Home';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import Trash from './Trash';
+import Trash from './components/Trash';
 
 class App extends React.Component{
   constructor(props){
